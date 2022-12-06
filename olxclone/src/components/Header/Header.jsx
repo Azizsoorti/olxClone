@@ -4,10 +4,12 @@ import { BiSearch } from "react-icons/bi";
 import { IoIosArrowDown } from "react-icons/io";
 // import { TiPlus } from "react-icons/ti";
 import { SlArrowDown } from "react-icons/sl";
+import ListProducts from "../Listing/ListProducts";
+import Footer from "../Footer/Footer";
 function Header() {
   return (
     <>
-      <div className="position-fixed">
+      <div className="">
         {/* =============================logo & top-pages=============================================== = */}
         <div className="topBar   px-4 py-3 ">
           <img className="logo1" src="assets/images/olx-logo1.png" alt="" />
@@ -29,10 +31,10 @@ function Header() {
         {/* =============================== * navbar * ============================================ */}
         <div className="navBar  px-4 py-1 d-flex">
           <img src="assets/images/OLX-Symbol.png" alt="olx-symbol" />
-          <div className="contryBar ">
+          <div className="contryBar d-flex">
             <BiSearch />
             <input type="text" placeholder="Pakistan" />
-            <IoIosArrowDown />
+            <IoIosArrowDown  />
           </div>
 
           <div className="findItem d-flex">
@@ -41,8 +43,8 @@ function Header() {
           </div>
           <div className="login-sell-btn d-flex ">
             <button className="login"><Link to="#" className="loginBtn">Login</Link></button>
-            {/* <button className="sellBtn"><TiPlus /> SELL </button> */}
-            <img src="assets/images/sell.svg" alt="sell" />
+        
+            <img src="assets/images/sellimg.png" alt="sell" />
           </div>
         </div>
 
@@ -60,9 +62,10 @@ function Header() {
           <Link to="#" className="gategory"> Land & Plots </Link>
 
         </div>
-
-
+        {/* ============================ListProducts======================================  */}
+   
       </div>
+      <Outlet />
     </>
   );
 }
