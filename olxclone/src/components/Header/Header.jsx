@@ -10,16 +10,16 @@ function Header() {
       <div className="position-fixed">
         {/* =============================logo & top-pages=============================================== = */}
         <div className="topBar   px-4 py-3 ">
-          <img className="logo1" src="images/olx-logo1.png" alt="" />
+          <img className="logo1" src="assets/images/olx-logo1.png" alt="" />
           <div className="top-pages d-inline mx-5">
             <NavLink to="#" className="text-decoration-none" >
-              <img className="me-3" src="images/car-icon.png" alt="Motors" />
+              <img className="me-3" src="assets/images/car-icon.png" alt="Motors" />
               <p className="d-inline  ">MOTOR</p>
             </NavLink>
           </div>
           <div className="top-pages d-inline">
             <NavLink to="#" className="text-decoration-none" >
-              <img className="me-3" src="images/apartment.png" alt="Property" />
+              <img className="me-3" src="assets/images/apartment.png" alt="Property" />
               <p className="d-inline  ">PROPERTY</p>
             </NavLink>
           </div>
@@ -28,7 +28,7 @@ function Header() {
 
         {/* =============================== * navbar * ============================================ */}
         <div className="navBar  px-4 py-1 d-flex">
-          <img src="images/OLX-Symbol.png" alt="olx-symbol" />
+          <img src="assets/images/OLX-Symbol.png" alt="olx-symbol" />
           <div className="contryBar ">
             <BiSearch />
             <input type="text" placeholder="Pakistan" />
@@ -42,7 +42,7 @@ function Header() {
           <div className="login-sell-btn d-flex ">
             <button className="login"><Link to="#" className="loginBtn">Login</Link></button>
             {/* <button className="sellBtn"><TiPlus /> SELL </button> */}
-            <img src="images/sell.svg" alt="sell" />
+            <img src="assets/images/sell.svg" alt="sell" />
           </div>
         </div>
 
