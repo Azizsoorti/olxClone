@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link} from "react-router-dom";
 import "./ListProducts.css";
-function ListProducts() {
+function ListProducts() {  
   return (
     <>
       <div className="category-items border-end border-bottom border-start mx-4 container bg-white">

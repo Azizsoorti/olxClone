@@ -14,8 +14,11 @@ li{
   border: 1px solid #b7b1b16e
 }
 
-._2e82a662 {
+.singleList {
   margin-left: 31px;
+}
+.social-mini{
+  width: 6rem;
 }
 .social-Big{
   width: 8rem;
