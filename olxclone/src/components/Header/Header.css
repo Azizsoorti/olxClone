@@ -1,0 +1,102 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* ======================================logo top pages=================================================== */
+
+.logo1{
+  width: 3rem;
+}
+img[alt="Motors"]{
+  width: 1rem;
+}
+img[alt="Property"]{
+  width: 1rem;
+}
+.top-pages p{
+  font-size: 12px;
+  font-weight: 600;
+  color: black;
+}
+/* <!-- =============================== * navbar * ============================================ --> */
+
+img[ alt="olx-symbol"]{
+  width: 60px;
+}
+.contryBar{
+  border: 2px solid black;
+  margin-left: 2rem;
+  padding: 10px;
+}
+input[placeholder="Pakistan"]{
+  border: none;
+  outline: none;
+  padding: 0 8px;
+}
+input[placeholder="Find Cars, Mobile Phones and more..."]{
+  border: none;
+  outline: none;
+  padding-left:8px;
+  margin: 0;
+  width: 41rem;
+}
+
+.findItem{
+  border: 2px solid black;
+  margin-left: 2rem;
+  padding-left: 10px;
+}
+.searchBtn{
+  width: 3rem;
+  background-color: #002f34;
+  color: white;
+  border: none;
+  outline: none;
+}
+.login{
+  border: none;
+  margin: 0 1rem;
+}
+.loginBtn{
+  color: #002f34;
+  font-weight: 600;
+}
+.sellBtn{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  background: none;
+  color: #002f34;
+  font-weight: 600;
+font-size: 15px;
+
+}
+img[alt="sell"]{
+  background: none;
+  background-color: transparent;
+margin: auto;
+}
+.select-category{
+  border: none;
+  outline: none;
+ 
+}
+.s-g-icon{
+  width: 2rem;
+  font-size: 20px;
+  
+}
+.s-c-link{
+  font-size: 13px;
+  font-weight: bolder;
+  color: black;
+  text-decoration: none;
+}
+.gategory{
+  text-decoration: none;
+  margin: 0 6px;
+  font-size: 15px;
+  color: black;
+}
