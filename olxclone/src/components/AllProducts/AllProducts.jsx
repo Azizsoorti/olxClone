@@ -14,7 +14,7 @@ function AllProducts() {
                     <div className="col-12 col-lg-4 col-md-3 col-sm-6 shadow-sm my-2">
                     <Link to="#" className='link'>
                         <div className="product-img">
-                            <img src="https://images.olx.com.pk/thumbnails/300887594-240x180.jpeg" alt="" />
+                            <img src="assets/images/product1.jpeg" alt="" />
                         </div>
                         <div className="product-body ">
                             <div className="top-body py-2 d-flex ">
@@ -36,7 +36,7 @@ function AllProducts() {
                     <div className="col-12 col-lg-4 col-md-3 col-sm-6 shadow-sm my-2">
                     <Link to="#" className='link'>
                         <div className="product-img">
-                            <img src="https://images.olx.com.pk/thumbnails/300887594-240x180.jpeg" alt="" />
+                            <img src="assets/images/product1.jpeg" alt="" />
                         </div>
                         <div className="product-body ">
                             <div className="top-body py-2 d-flex ">
@@ -58,7 +58,7 @@ function AllProducts() {
                     <div className="col-12 col-lg-4 col-md-3 col-sm-6 shadow-sm my-2">
                     <Link to="#" className='link'>
                         <div className="product-img">
-                            <img src="https://images.olx.com.pk/thumbnails/300887594-240x180.jpeg" alt="" />
+                            <img src="assets/images/product1.jpeg" alt="" />
                         </div>
                         <div className="product-body ">
                             <div className="top-body py-2 d-flex ">
@@ -80,7 +80,7 @@ function AllProducts() {
                     <div className="col-12 col-lg-4 col-md-3 col-sm-6 shadow-sm my-2">
                     <Link to="#" className='link'>
                         <div className="product-img">
-                            <img src="https://images.olx.com.pk/thumbnails/300887594-240x180.jpeg" alt="" />
+                            <img src="assets/images/product1.jpeg" alt="" />
                         </div>
                         <div className="product-body ">
                             <div className="top-body py-2 d-flex ">
@@ -102,7 +102,7 @@ function AllProducts() {
                     <div className="col-12 col-lg-4 col-md-3 col-sm-6 shadow-sm my-2">
                     <Link to="#" className='link'>
                         <div className="product-img">
-                            <img src="https://images.olx.com.pk/thumbnails/300887594-240x180.jpeg" alt="" />
+                            <img src="assets/images/product1.jpeg" alt="" />
                         </div>
                         <div className="product-body ">
                             <div className="top-body py-2 d-flex ">
@@ -124,7 +124,7 @@ function AllProducts() {
                     <div className="col-12 col-lg-4 col-md-3 col-sm-6 shadow-sm my-2">
                     <Link to="#" className='link'>
                         <div className="product-img">
-                            <img src="https://images.olx.com.pk/thumbnails/300887594-240x180.jpeg" alt="" />
+                            <img src="assets/images/product1.jpeg" alt="" />
                         </div>
                         <div className="product-body ">
                             <div className="top-body py-2 d-flex ">
@@ -146,7 +146,7 @@ function AllProducts() {
                     <div className="col-12 col-lg-4 col-md-3 col-sm-6 shadow-sm my-2">
                     <Link to="#" className='link'>
                         <div className="product-img">
-                            <img src="https://images.olx.com.pk/thumbnails/300887594-240x180.jpeg" alt="" />
+                            <img src="assets/images/product1.jpeg" alt="" />
                         </div>
                         <div className="product-body ">
                             <div className="top-body py-2 d-flex ">
@@ -168,7 +168,7 @@ function AllProducts() {
                     <div className="col-12 col-lg-4 col-md-3 col-sm-6 shadow-sm my-2">
                     <Link to="#" className='link'>
                         <div className="product-img">
-                            <img src="https://images.olx.com.pk/thumbnails/300887594-240x180.jpeg" alt="" />
+                            <img src="assets/images/product1.jpeg" alt="" />
                         </div>
                         <div className="product-body ">
                             <div className="top-body py-2 d-flex ">
@@ -190,7 +190,7 @@ function AllProducts() {
                     <div className="col-12 col-lg-4 col-md-3 col-sm-6 shadow-sm my-2">
                     <Link to="#" className='link'>
                         <div className="product-img">
-                            <img src="https://images.olx.com.pk/thumbnails/300887594-240x180.jpeg" alt="" />
+                            <img src="assets/images/product1.jpeg" alt="" />
                         </div>
                         <div className="product-body ">
                             <div className="top-body py-2 d-flex ">
@@ -212,7 +212,7 @@ function AllProducts() {
                     <div className="col-12 col-lg-4 col-md-3 col-sm-6 shadow-sm my-2">
                     <Link to="#" className='link'>
                         <div className="product-img">
-                            <img src="https://images.olx.com.pk/thumbnails/300887594-240x180.jpeg" alt="" />
+                            <img src="assets/images/product1.jpeg" alt="" />
                         </div>
                         <div className="product-body ">
                             <div className="top-body py-2 d-flex ">
@@ -234,7 +234,7 @@ function AllProducts() {
                     <div className="col-12 col-lg-4 col-md-3 col-sm-6 shadow-sm my-2">
                     <Link to="#" className='link'>
                         <div className="product-img">
-                            <img src="https://images.olx.com.pk/thumbnails/300887594-240x180.jpeg" alt="" />
+                            <img src="assets/images/product1.jpeg" alt="" />
                         </div>
                         <div className="product-body ">
                             <div className="top-body py-2 d-flex ">
@@ -256,7 +256,7 @@ function AllProducts() {
                     <div className="col-12 col-lg-4 col-md-3 col-sm-6 shadow-sm my-2">
                     <Link to="#" className='link'>
                         <div className="product-img">
-                            <img src="https://images.olx.com.pk/thumbnails/300887594-240x180.jpeg" alt="" />
+                            <img src="assets/images/product1.jpeg" alt="" />
                         </div>
                         <div className="product-body ">
                             <div className="top-body py-2 d-flex ">
@@ -278,7 +278,7 @@ function AllProducts() {
                     <div className="col-12 col-lg-4 col-md-3 col-sm-6 shadow-sm my-2">
                     <Link to="#" className='link'>
                         <div className="product-img">
-                            <img src="https://images.olx.com.pk/thumbnails/300887594-240x180.jpeg" alt="" />
+                            <img src="assets/images/product1.jpeg" alt="" />
                         </div>
                         <div className="product-body ">
                             <div className="top-body py-2 d-flex ">
@@ -300,7 +300,7 @@ function AllProducts() {
                     <div className="col-12 col-lg-4 col-md-3 col-sm-6 shadow-sm my-2">
                     <Link to="#" className='link'>
                         <div className="product-img">
-                            <img src="https://images.olx.com.pk/thumbnails/300887594-240x180.jpeg" alt="" />
+                            <img src="assets/images/product1.jpeg" alt="" />
                         </div>
                         <div className="product-body ">
                             <div className="top-body py-2 d-flex ">
@@ -322,7 +322,7 @@ function AllProducts() {
                     <div className="col-12 col-lg-4 col-md-3 col-sm-6 shadow-sm my-2">
                     <Link to="#" className='link'>
                         <div className="product-img">
-                            <img src="https://images.olx.com.pk/thumbnails/300887594-240x180.jpeg" alt="" />
+                            <img src="assets/images/product1.jpeg" alt="" />
                         </div>
                         <div className="product-body ">
                             <div className="top-body py-2 d-flex ">
