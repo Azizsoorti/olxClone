@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link} from "react-router-dom";
 import "./ListProducts.css";
-function ListProducts() {  
+function ListProducts({listShow}) {  
   return (
     <>
-      <div className="category-items border-end border-bottom border-start mx-4 container bg-white">
+      <div className="category-items border-end border-bottom border-start mx-4 container bg-white" style={listShow}>
                         <div className="row">
                             <div className="category-item col-lg-3 mt-5 lh-base">
                                 <ul type='none' >

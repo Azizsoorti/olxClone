@@ -1,17 +1,37 @@
+import { useState } from "react";
 import "./Header.css";
 import { Link, NavLink, Outlet } from "react-router-dom";
 import { BiSearch } from "react-icons/bi";
 import { IoIosArrowDown } from "react-icons/io";
-// import { TiPlus } from "react-icons/ti";
 import { SlArrowDown } from "react-icons/sl";
+import { SlArrowUp } from "react-icons/sl";
 import ListProducts from "../Listing/ListProducts";
-import Footer from "../Footer/Footer";
+import Ads from "../Ads/Ads"
+
+
 function Header() {
+
+  const [adsShow, setAdsShow] = useState({ display: "block" });
+  const [listShow, setListShow] = useState({display:"none"});
+  const [display, setDisplay] = useState(false);
+
+  function listShowFunc() {
+    setDisplay(true);
+    setAdsShow({display:"none"});
+    setListShow({display:"block"})
+  };
+  function adsShowFunc(){
+    setDisplay(false);
+    setAdsShow({display:"block"});
+    setListShow({display:"none"})
+  }
+
   return (
     <>
       <div className="">
         {/* =============================logo & top-pages=============================================== = */}
-        <div className="topBar   px-4 py-3 ">
+        <div className="topBar row  px-4 py-3 ">
+          <div className="col-12 d-flex gx-0"> 
           <img className="logo1" src="assets/images/olx-logo1.png" alt="" />
           <div className="top-pages d-inline mx-5">
             <NavLink to="#" className="text-decoration-none" >
@@ -25,34 +45,48 @@ function Header() {
               <p className="d-inline  ">PROPERTY</p>
             </NavLink>
           </div>
-
+          </div>
         </div>
 
         {/* =============================== * navbar * ============================================ */}
-        <div className="navBar  px-4 py-1 d-flex">
+        <div className="row ">  
+
+        <div className="navBar col-12 px-4 py-1 d-flex">
+          <div className="row d-flex">
+            <div className="col-sm-3 d-flex "> 
           <img src="assets/images/OLX-Symbol.png" alt="olx-symbol" />
-          <div className="contryBar d-flex">
+          <div className="contryBar d-flex ">
             <BiSearch />
-            <input type="text" placeholder="Pakistan" />
-            <IoIosArrowDown  />
+            <input className="mx-2 " type="text" placeholder="Pakistan" />
+            <IoIosArrowDown />
+          </div>
           </div>
 
-          <div className="findItem d-flex">
+<div className="col-sm-9">
+          <div className="findItem d-flex  gx-0 float-start">
             <input type="text" placeholder="Find Cars, Mobile Phones and more..." />
-            <button className="searchBtn"><BiSearch className="fs-3" /> </button>
+            <button className="searchBtn ms-auto"><BiSearch className="fs-3" /> </button>
           </div>
-          <div className="login-sell-btn d-flex ">
-            <button className="login"><Link to="#" className="loginBtn">Login</Link></button>
-        
-            <img src="assets/images/sellimg.png" alt="sell" />
+
+          <div className="login sellBtn d-flex float-end ">
+            <button className="login me-3"><Link to="#" className=" loginBtn">Login</Link></button>
+            <img  src="assets/images/sellimg.png" alt="sell" />
+          </div>
+          </div>
           </div>
         </div>
 
+        </div>
 
         {/* =======================================topCategory======================================  */}
-        <div className="topCategory px-4 py-3">
+        <div className="row"> 
+        <div className="topCategory col-12 px-4 py-3 ms-1 ">
 
-          <button className="select-category"><Link to="#" className="s-c-link"> ALL CATEGORIES <SlArrowDown className="s-g-icon" /></Link></button>
+          <button className="select-category">
+           ALL CATEGORIES
+           {display===!true? <SlArrowDown className="s-g-icon " onClick={listShowFunc}  />:  <SlArrowUp className="s-g-icon " onClick={adsShowFunc} />}
+           
+          </button>
           <Link to="#" className="gategory"> Mobile Phones </Link>
           <Link to="#" className="gategory">Cars  </Link>
           <Link to="#" className="gategory"> Motorcycles </Link>
@@ -62,8 +96,14 @@ function Header() {
           <Link to="#" className="gategory"> Land & Plots </Link>
 
         </div>
+        </div>
         {/* ============================ListProducts======================================  */}
-   
+      
+        <Ads  adsShow={adsShow} />
+        <ListProducts listShow={listShow} />
+
+
+
       </div>
       <Outlet />
     </>

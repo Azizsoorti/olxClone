@@ -1,9 +1,13 @@
 import React from 'react'
+import AllProducts from '../AllProducts/AllProducts';
+
+
+
 import "./Category.css";
 function Category() {
   return (
 <> 
-<h1>Need to call product API</h1>
+<AllProducts />
   </>
   )
 }

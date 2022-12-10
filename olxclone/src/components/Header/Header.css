@@ -33,20 +33,22 @@ img[ alt="olx-symbol"]{
 input[placeholder="Pakistan"]{
   border: none;
   outline: none;
-  padding: 0 8px;
+  padding: 10 8px;
 }
+.findItem{
+  border: 2px solid black;
+  margin-left: 3.5rem;
+  padding-left: 10px;
+}
+
 input[placeholder="Find Cars, Mobile Phones and more..."]{
   border: none;
   outline: none;
   padding-left:8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin: 0;
   width: 41rem;
-}
-
-.findItem{
-  border: 2px solid black;
-  margin-left: 2rem;
-  padding-left: 10px;
 }
 .searchBtn{
   width: 3rem;
@@ -54,10 +56,11 @@ input[placeholder="Find Cars, Mobile Phones and more..."]{
   color: white;
   border: none;
   outline: none;
+
 }
 .login{
   border: none;
-  margin: 0 1rem;
+
 }
 .loginBtn{
   color: #002f34;
@@ -96,7 +99,8 @@ margin: auto;
 }
 .gategory{
   text-decoration: none;
+  color: black;
   margin: 0 6px;
   font-size: 15px;
-  color: black;
+ 
 }
