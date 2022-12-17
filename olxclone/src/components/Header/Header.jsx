@@ -70,7 +70,7 @@ function Header() {
 
           <div className="login sellBtn d-flex float-end ">
             <button className="login me-3"><Link to="#" className=" loginBtn">Login</Link></button>
-            <img  src="assets/images/sellimg.png" alt="sell" />
+           <Link to="sellProduct"><img  src="assets/images/sellimg.png" alt="sell" /> </Link> 
           </div>
           </div>
           </div>
